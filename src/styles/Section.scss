@@ -1,0 +1,99 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  background: #0b0e1a;
+  min-height: 100vh;
+  color: white;
+  align-items: center;
+  padding-top: 10vh;
+  h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 45px;
+  }
+  .section-span {
+    color: #c9a11c;
+    font-weight: 700;
+    animation-name: disapear;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .section-button {
+    margin-top: 3vh;
+    padding: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 80vw;
+    border: 2px solid #c9a11c;
+    border-radius: 999px;
+    background: none;
+    color: #c9a11c;
+    font-size: 1rem;
+  }
+  .section-button:active,
+  .section-button:hover {
+    background: #c9a11c;
+    color: white;
+  }
+
+  .smaller {
+    width: 45vw;
+  }
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-container {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.image-logo {
+  height: 10vh;
+  width: 80vw;
+  padding: 2vh 0;
+}
+
+.image-heading {
+  font-weight: 400;
+}
+
+.image-project {
+  height: 40vh;
+}
+
+.image-button {
+  border: none;
+  background: none;
+  color: white;
+  padding: 0.1rem;
+  margin: 1rem;
+}
+
+.image-button:active,
+.image-button:hover {
+  border: 2px solid #c9a11c;
+  border-radius: 50%;
+  color: #c9a11c;
+}
+
+@keyframes disapear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

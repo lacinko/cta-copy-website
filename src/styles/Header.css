@@ -1,0 +1,113 @@
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  min-height: 8vh;
+  z-index: 5;
+  top: 0;
+}
+
+.header-container {
+  background: #0b0e1a;
+  min-height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 6vw;
+}
+
+.header-container img {
+  height: 4vh;
+}
+
+.header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #0b0e1a;
+}
+
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  padding-top: 4vh;
+}
+
+.nav-list li {
+  width: 100vw;
+  padding: 2.3vh 0;
+  background: #0b0e1a;
+  text-align: center;
+  border-bottom: 1px ridge white;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-list li a:hover,
+.nav-list li a:active {
+  color: #c9a11c;
+}
+
+.nav-list li:last-child {
+  height: 10vh;
+  border-bottom: none;
+}
+
+.nav-list li:first-child {
+  border-top: 1px ridge white;
+}
+
+.nav-list li:nth-child(5) {
+  background: #c9a11c;
+}
+
+.nav-list li:nth-child(5) a {
+  font-weight: 500;
+}
+
+.closed {
+  display: none;
+}
+
+.header-menu {
+  color: white;
+  -webkit-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+}
+/*# sourceMappingURL=Header.css.map */

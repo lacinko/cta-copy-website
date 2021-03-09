@@ -1,0 +1,43 @@
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  min-height: 100vh;
+  color: #0b0e1a;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10vh;
+}
+
+.section2 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 45px;
+  margin-bottom: 3vh;
+}
+
+.section2 .section-span {
+  color: #c9a11c;
+  font-weight: 700;
+  -webkit-animation-name: disapear;
+          animation-name: disapear;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.section2-list {
+  border-top: 1px solid black;
+  margin-top: 7vh;
+  margin-bottom: 7vh;
+}
+/*# sourceMappingURL=Section2.css.map */
