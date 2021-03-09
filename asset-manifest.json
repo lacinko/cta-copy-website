@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cta-copy-website/static/css/main.b03475d6.chunk.css",
-    "main.js": "/cta-copy-website/static/js/main.1a750886.chunk.js",
-    "main.js.map": "/cta-copy-website/static/js/main.1a750886.chunk.js.map",
+    "main.css": "/cta-copy-website/static/css/main.beb4f5d3.chunk.css",
+    "main.js": "/cta-copy-website/static/js/main.f8fc574d.chunk.js",
+    "main.js.map": "/cta-copy-website/static/js/main.f8fc574d.chunk.js.map",
     "runtime-main.js": "/cta-copy-website/static/js/runtime-main.17a6764d.js",
     "runtime-main.js.map": "/cta-copy-website/static/js/runtime-main.17a6764d.js.map",
-    "static/js/2.319b3b9c.chunk.js": "/cta-copy-website/static/js/2.319b3b9c.chunk.js",
-    "static/js/2.319b3b9c.chunk.js.map": "/cta-copy-website/static/js/2.319b3b9c.chunk.js.map",
+    "static/js/2.90c53622.chunk.js": "/cta-copy-website/static/js/2.90c53622.chunk.js",
+    "static/js/2.90c53622.chunk.js.map": "/cta-copy-website/static/js/2.90c53622.chunk.js.map",
     "index.html": "/cta-copy-website/index.html",
-    "static/css/main.b03475d6.chunk.css.map": "/cta-copy-website/static/css/main.b03475d6.chunk.css.map",
-    "static/js/2.319b3b9c.chunk.js.LICENSE.txt": "/cta-copy-website/static/js/2.319b3b9c.chunk.js.LICENSE.txt"
+    "static/css/main.beb4f5d3.chunk.css.map": "/cta-copy-website/static/css/main.beb4f5d3.chunk.css.map",
+    "static/js/2.90c53622.chunk.js.LICENSE.txt": "/cta-copy-website/static/js/2.90c53622.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.17a6764d.js",
-    "static/js/2.319b3b9c.chunk.js",
-    "static/css/main.b03475d6.chunk.css",
-    "static/js/main.1a750886.chunk.js"
+    "static/js/2.90c53622.chunk.js",
+    "static/css/main.beb4f5d3.chunk.css",
+    "static/js/main.f8fc574d.chunk.js"
   ]
 }
