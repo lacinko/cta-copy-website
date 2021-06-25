@@ -6,7 +6,7 @@ export const ListItem = ({ logo, text, txtWrap }) => {
   return (
     <div className="list-item">
       <li>
-        <a href="">
+        <a href="#">
           <span className="list-heading">
             <Icon className="list-logo">{logo}</Icon>
             {txtWrap ? text.split(" ").join("\n") : text}

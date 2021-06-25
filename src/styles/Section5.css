@@ -1,0 +1,9 @@
+.section5 {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(11, 14, 26, 0.9)), to(rgba(11, 14, 26, 0.9))), url("https://www.cta.sk/assets/img/team-bg.jpg");
+  background: linear-gradient(0deg, rgba(11, 14, 26, 0.9), rgba(11, 14, 26, 0.9)), url("https://www.cta.sk/assets/img/team-bg.jpg");
+  background-position: top;
+  background-size: 750%;
+  min-height: 140vh;
+  text-align: center;
+}
+/*# sourceMappingURL=Section5.css.map */

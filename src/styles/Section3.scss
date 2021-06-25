@@ -1,3 +1,6 @@
+.section3 {
+}
+
 .image-container1 {
   display: flex;
   flex-direction: column;
@@ -12,6 +15,51 @@
   text-align: center;
 }
 
-.chipset1 {
-  fill: #c9a11c;
+.text2 {
+  position: absolute;
+  top: 325px;
+  left: 80px;
+  text-align: center;
+}
+.text3 {
+  position: absolute;
+  top: 620px;
+  left: 65px;
+  text-align: center;
+}
+.containerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #edba20;
+  font-weight: 600;
+  padding-top: 4vh;
+  padding-bottom: 6vh;
+}
+
+.image-container2 {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.image-container2-active {
+  transition: all 650ms ease-in;
+  height: 100%;
+  opacity: 1;
+}
+
+.chipset1:hover {
+  animation: color 2s linear 0.5s 1 normal forwards;
+}
+
+@keyframes color {
+  0% {
+    filter: none;
+  }
+  100% {
+    filter: invert(62%) sepia(66%) saturate(549%) hue-rotate(5deg)
+      brightness(110%) contrast(86%);
+  }
 }

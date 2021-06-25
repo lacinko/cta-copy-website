@@ -1,0 +1,58 @@
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25vw;
+  padding: 0 8vw;
+  font-size: 0.8rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.btn-container button {
+  color: black;
+}
+
+.control-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arrow-btn {
+  margin-top: 9vh;
+  margin-bottom: 4vh;
+  color: #edba20;
+  font-size: 60px !important;
+}
+
+.section4 {
+  margin-top: 6vh;
+  padding: 5vh 3vw;
+  text-align: center;
+  max-height: 60vh;
+  line-height: 2.4;
+  margin-bottom: 6vh;
+}
+
+.section4-picture {
+  font-size: 20vh !important;
+  color: #edba20;
+}
+/*# sourceMappingURL=Section4.css.map */
